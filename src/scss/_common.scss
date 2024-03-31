@@ -1,0 +1,26 @@
+* {
+    position: relative;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    // font-size: 0.520834vw;
+    font-size: 10px;
+    min-width: 32em;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 134em;
+    margin: 0 auto;
+}
+
