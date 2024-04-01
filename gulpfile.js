@@ -6,8 +6,7 @@ let gulp = require("gulp"),
     concat = require("gulp-concat"),
     rename = require("gulp-rename"),
     del = require("del"),
-    autoprefixer = require("gulp-autoprefixer"),
-    pxToRem = require("gulp-px2rem-converter");
+    autoprefixer = require("gulp-autoprefixer");
 
 gulp.task("pug", async function () {
     del.sync("src/*.html");
@@ -50,7 +49,6 @@ gulp.task("css", async function () {
             "node_modules/lightbox2/dist/css/lightbox.css",
             // 'node_modules/jquery-ui/dist/themes/base/jquery-ui.min.css',
         ])
-        .pipe(pxToRem())
         .pipe(concat("_libs.scss"))
         .pipe(gulp.dest("src/scss"))
         .pipe(browserSync.reload({ stream: true }));

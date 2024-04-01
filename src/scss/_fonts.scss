@@ -1,59 +1,49 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/css/fonts/subset-OpenSans-SemiBold.eot');
-    src: url('/css/fonts/subset-OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/subset-OpenSans-SemiBold.woff2') format('woff2'),
-        url('/css/fonts/subset-OpenSans-SemiBold.woff') format('woff'),
-        url('/css/fonts/subset-OpenSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/css/fonts/subset-OpenSans-Bold.eot');
-    src: url('/css/fonts/subset-OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/subset-OpenSans-Bold.woff2') format('woff2'),
-        url('/css/fonts/subset-OpenSans-Bold.woff') format('woff'),
-        url('/css/fonts/subset-OpenSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/css/fonts/subset-OpenSans-Regular.eot');
-    src: url('/css/fonts/subset-OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/subset-OpenSans-Regular.woff2') format('woff2'),
-        url('/css/fonts/subset-OpenSans-Regular.woff') format('woff'),
-        url('/css/fonts/subset-OpenSans-Regular.ttf') format('truetype');
+    font-family: 'Nunito Sans 7pt';
+    src: url('/css/fonts/NunitoSans7pt-Regular.woff2') format('woff2'),
+        url('/css/fonts/NunitoSans7pt-Regular.woff') format('woff'),
+        url('/css/fonts/NunitoSans7pt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/css/fonts/subset-OpenSans-Medium.eot');
-    src: url('/css/fonts/subset-OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/subset-OpenSans-Medium.woff2') format('woff2'),
-        url('/css/fonts/subset-OpenSans-Medium.woff') format('woff'),
-        url('/css/fonts/subset-OpenSans-Medium.ttf') format('truetype');
-    font-weight: 500;
+    font-family: 'Nunito Sans 7pt';
+    src: url('/css/fonts/NunitoSans7pt-Light.woff2') format('woff2'),
+        url('/css/fonts/NunitoSans7pt-Light.woff') format('woff'),
+        url('/css/fonts/NunitoSans7pt-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/css/fonts/subset-OpenSans-Light.eot');
-    src: url('/css/fonts/subset-OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/subset-OpenSans-Light.woff2') format('woff2'),
-        url('/css/fonts/subset-OpenSans-Light.woff') format('woff'),
-        url('/css/fonts/subset-OpenSans-Light.ttf') format('truetype');
-    font-weight: 300;
+    font-family: 'Nunito Sans 7pt';
+    src: url('/css/fonts/NunitoSans7pt-SemiBold.woff2') format('woff2'),
+        url('/css/fonts/NunitoSans7pt-SemiBold.woff') format('woff'),
+        url('/css/fonts/NunitoSans7pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans 7pt';
+    src: url('/css/fonts/NunitoSans7pt-Black.woff2') format('woff2'),
+        url('/css/fonts/NunitoSans7pt-Black.woff') format('woff'),
+        url('/css/fonts/NunitoSans7pt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans 7pt';
+    src: url('/css/fonts/NunitoSans7pt-Bold.woff2') format('woff2'),
+        url('/css/fonts/NunitoSans7pt-Bold.woff') format('woff'),
+        url('/css/fonts/NunitoSans7pt-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
