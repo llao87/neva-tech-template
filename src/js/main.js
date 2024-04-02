@@ -1,12 +1,42 @@
 jQuery(function () {
-    const homeSlider = new Swiper(".js__home-slider", {
-        loop: true,
-        slidesPerView: 1,
-        draggable: true,
-        pagination: {
-            el: ".js__home-slider + .swiper-pagination",
-        },
-    });
+    const homeSlider = new Swiper(
+        ".js__home-slider",
+        {
+            loop: true,
+            slidesPerView: 1,
+            draggable: true,
+            pagination: {
+                el: ".js__home-slider + .swiper-pagination",
+            },
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
+        }
+    );
+
+
+    const productGalleryNav = new Swiper(
+        ".js__gallery_nav",
+        {
+            slidesPerView: 4,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }              
+        }
+    );
+    const productGallery = new Swiper(
+        ".js__gallery",
+        {
+            thumbs: {
+                swiper: productGalleryNav,
+            },
+        }
+    );
+
+    
+
     /*
     const partnersCarousel = new Swiper(".partners-slider", {
         loop: true,

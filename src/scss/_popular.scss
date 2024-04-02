@@ -42,5 +42,91 @@
                 filter: grayscale(0);
             }
         }
+
+
+
+        .popular-details {
+            padding: 10rem 0;
+            .grid {
+                .col-7 {
+                    .tech-name {}
+                    .characteristics {
+                        .row {
+                            .name {}
+                            .value {}
+                        }
+                    }
+
+                    .advantages {
+                        .row {
+                            .icon {}
+                            .text {}
+                        }
+                    }
+
+                    .bnt {
+                        .icon-phone {}
+                        .phome {}
+                    }
+                    
+                    span.bnt {}
+                }
+                
+                .col-5 {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    flex-direction: column;
+
+                    .technics-gallery {
+                        position: relative;
+                        height: 34rem;
+                        width: 49rem;
+                        margin: 0 0.5rem 0 0;
+                        box-shadow: 0 0 0.4rem 0.05rem #b3afaf;
+
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 1rem;
+
+                                .slide-inner {
+                                    img {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    .technics-gallery-nav {
+                        height: 12rem;
+                        width: 50rem;
+                        margin: 1.4rem 0 0 0;
+                        position: relative;
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 0 0.5rem;
+                                .slide-inner {
+                                    padding: 0.5rem;
+                                    box-shadow: 0 0 0.4rem 0.05rem #b3afaf;
+
+                                    img {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
