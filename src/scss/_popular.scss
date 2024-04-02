@@ -1,0 +1,46 @@
+.popular {
+    padding: 7rem 0;
+    .container {
+        .section-title {
+            margin: 0 0 4rem 0;
+        }
+
+        .popular-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .position {
+                width: 17%;
+                box-shadow: 0 0 1.2rem 0.2rem #b3afaf;
+                padding: 1rem;
+                border: 0.4rem solid transparent;
+                transition: all 0.3s linear;
+                cursor: pointer;
+                filter: grayscale(1);
+
+                .photo {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .photo {
+                        width: 75%;
+                    }
+                }
+                .name {
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    text-align: center;
+                    padding: auto 2rem;
+                    line-height: 1.25;
+                    min-height: 3.5rem;
+                }
+            }
+            .position:hover,
+            .position.active {
+                border-color: $yellow;
+                filter: grayscale(0);
+            }
+        }
+    }
+}

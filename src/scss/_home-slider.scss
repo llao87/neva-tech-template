@@ -1,0 +1,39 @@
+.promo-slider {
+    .slider {
+        width: 100%;
+        height: 550px;
+        .slides {
+            width: inherit;
+            height: inherit;
+            .slide {
+                width: inherit;
+                height: inherit;
+                .inner {
+                    width: inherit;
+                    height: inherit;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .swiper-pagination {
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 3rem 0;
+        bottom: auto;
+
+        .swiper-pagination-bullet {
+            width: 2rem;
+            height: 2rem;
+            background-color: $light;
+            margin: 0 1rem;
+            opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: $yellowDark;
+        }
+    }
+}

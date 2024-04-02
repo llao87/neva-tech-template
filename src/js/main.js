@@ -1,4 +1,12 @@
 jQuery(function () {
+    const homeSlider = new Swiper(".js__home-slider", {
+        loop: true,
+        slidesPerView: 1,
+        draggable: true,
+        pagination: {
+            el: ".js__home-slider + .swiper-pagination",
+        },
+    });
     /*
     const partnersCarousel = new Swiper(".partners-slider", {
         loop: true,
