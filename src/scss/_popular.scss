@@ -49,21 +49,89 @@
             padding: 10rem 0;
             .grid {
                 .col-7 {
-                    .tech-name {}
-                    .characteristics {
-                        .row {
-                            .name {}
-                            .value {}
+                    .tech-name {
+                        font-size: 2.2rem;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        letter-spacing: 0.05rem;
+                        padding: 0.4rem 0;
+                        margin: 0 0 2.2rem 0;
+                    }
+                    .options {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: stretch;
+                        padding: 0 2rem 0 0;
+
+                        .characteristics {
+                            width: 46.5%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: space-between;
+                            padding: 3.6rem 2.6rem;
+                            border-radius: 0.5rem;
+                            background-color: #F1F1F1;
+                            .row {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                font-size: 1.6rem;
+                                font-weight: 300;
+                                line-height: 1.5;
+                                margin: 0 0 3.2rem 0;
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                                .name {
+                                    text-transform: uppercase;
+                                }
+                                .value {
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+
+                        .advantages {
+                            width: 46.5%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: space-between;
+                            // padding: 3.6rem 1rem 4.6rem 2.9rem;
+                            padding: 2.6rem 1rem 2.2rem 2.9rem;
+                            border-radius: 0.5rem;
+                            background-color: #F1F1F1aa;
+                            .row {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                font-size: 1.6rem;
+                                font-weight: 300;
+                                line-height: 1.5;
+                                margin: 0 0 3.2rem 0;
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                                .icon {
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 3.6rem;
+                                    height: 3.6rem;
+                                    margin: 0 1.6rem 0 0;
+
+                                    .icon-img {}
+                                }
+                                .text {
+                                    text-transform: uppercase;
+                                    letter-spacing: -0.05rem;
+                                }
+                            }
                         }
                     }
-
-                    .advantages {
-                        .row {
-                            .icon {}
-                            .text {}
-                        }
-                    }
-
                     .bnt {
                         .icon-phone {}
                         .phome {}

@@ -1399,9 +1399,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1848,6 +1848,126 @@ nav.navigation .container .socials .soc-icon:first-child {
 }
 .popular .container .popular-details {
   padding: 10rem 0;
+}
+.popular .container .popular-details .grid .col-7 .tech-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  padding: 0.4rem 0;
+  margin: 0 0 2.2rem 0;
+}
+.popular .container .popular-details .grid .col-7 .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0 2rem 0 0;
+}
+.popular .container .popular-details .grid .col-7 .options .characteristics {
+  width: 46.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3.6rem 2.6rem;
+  border-radius: 0.5rem;
+  background-color: #F1F1F1;
+}
+.popular .container .popular-details .grid .col-7 .options .characteristics .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 3.2rem 0;
+}
+.popular .container .popular-details .grid .col-7 .options .characteristics .row:last-child {
+  margin-bottom: 0;
+}
+.popular .container .popular-details .grid .col-7 .options .characteristics .row .name {
+  text-transform: uppercase;
+}
+.popular .container .popular-details .grid .col-7 .options .characteristics .row .value {
+  font-weight: 500;
+}
+.popular .container .popular-details .grid .col-7 .options .advantages {
+  width: 46.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2.6rem 1rem 2.2rem 2.9rem;
+  border-radius: 0.5rem;
+  background-color: rgba(241, 241, 241, 0.6666666667);
+}
+.popular .container .popular-details .grid .col-7 .options .advantages .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 3.2rem 0;
+}
+.popular .container .popular-details .grid .col-7 .options .advantages .row:last-child {
+  margin-bottom: 0;
+}
+.popular .container .popular-details .grid .col-7 .options .advantages .row .icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 1.6rem 0 0;
+}
+.popular .container .popular-details .grid .col-7 .options .advantages .row .text {
+  text-transform: uppercase;
+  letter-spacing: -0.05rem;
 }
 .popular .container .popular-details .grid .col-5 {
   display: -webkit-box;
