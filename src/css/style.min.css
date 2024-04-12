@@ -1849,6 +1849,37 @@ nav.navigation .container .socials .soc-icon:first-child {
 .popular .container .popular-details {
   padding: 10rem 0;
 }
+.popular .container .popular-details .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.popular .container .popular-details .grid .col-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  width: 58.3333%;
+  padding: 0 2rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 .popular .container .popular-details .grid .col-7 .tech-name {
   font-size: 2.2rem;
   font-weight: 700;
@@ -1862,12 +1893,13 @@ nav.navigation .container .socials .soc-icon:first-child {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  padding: 0 2rem 0 0;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin: 0 0 7.6rem 0;
+  width: 100%;
 }
 .popular .container .popular-details .grid .col-7 .options .characteristics {
   width: 46.5%;
@@ -1876,14 +1908,14 @@ nav.navigation .container .socials .soc-icon:first-child {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 3.6rem 2.6rem;
   border-radius: 0.5rem;
   background-color: #F1F1F1;
@@ -1969,6 +2001,58 @@ nav.navigation .container .socials .soc-icon:first-child {
   text-transform: uppercase;
   letter-spacing: -0.05rem;
 }
+.popular .container .popular-details .grid .col-7 .bnt {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.2rem 2rem;
+  background: #ff2e2e;
+  width: 46.5%;
+  border-radius: 0.6rem;
+}
+.popular .container .popular-details .grid .col-7 .bnt .phome {
+  width: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 1.4rem 0 2rem;
+  letter-spacing: -0.05rem;
+}
+.popular .container .popular-details .grid .col-7 span.bnt {
+  cursor: pointer;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.3814rem 1rem;
+  background: #eda91a;
+  width: 46.5%;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+}
 .popular .container .popular-details .grid .col-5 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2034,4 +2118,79 @@ nav.navigation .container .socials .soc-icon:first-child {
 .popular .container .popular-details .grid .col-5 .technics-gallery-nav .swiper-wrapper .swiper-slide .slide-inner img {
   width: 100%;
   height: auto;
+}
+
+.about-home {
+  padding: 2.45rem 0 10rem 0;
+}
+.about-home .bg-image {
+  width: 50%;
+  height: 100%;
+}
+.about-home .bg-image img {
+  width: 100rem;
+  height: auto;
+  top: -1.2rem;
+  position: absolute;
+  left: -2rem;
+  position: absolute;
+}
+.about-home .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.about-home .container .about-text {
+  width: 50%;
+}
+.about-home .container .about-text .title {
+  font-size: 3.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 6.2rem 0;
+}
+.about-home .container .about-text p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin: 0 0 2rem 0;
+}
+.about-home .container .about-text ul {
+  list-style: circle;
+  font-size: 1.8rem;
+  line-height: 1.35;
+  margin: 2.6rem 0;
+  padding-left: 2rem;
+}
+.news {
+  padding: 2.1rem 0 10rem 0;
+}
+.news .container .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 6.5rem 0 0 0;
+}
+.news .container .grid .news-item {
+  width: 32%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 37rem;
+}
+.news .container .grid .news-item .news-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  margin: 2.8rem 0 0 2.8rem;
+  text-shadow: 0 0 0.2rem black;
 }

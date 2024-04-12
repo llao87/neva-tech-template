@@ -43,12 +43,30 @@
             }
         }
 
-
-
         .popular-details {
             padding: 10rem 0;
             .grid {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: stretch;
+                -ms-flex-align: stretch;
+                align-items: stretch;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
                 .col-7 {
+                    -webkit-box-flex: 0;
+                    -ms-flex: none;
+                    flex: none;
+                    width: 58.3333%;
+                    padding: 0 2rem 0 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
                     .tech-name {
                         font-size: 2.2rem;
                         font-weight: 700;
@@ -58,16 +76,32 @@
                         margin: 0 0 2.2rem 0;
                     }
                     .options {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
+                        -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
                         justify-content: space-between;
+                        -webkit-box-align: stretch;
+                        -ms-flex-align: stretch;
                         align-items: stretch;
-                        padding: 0 2rem 0 0;
+                        margin: 0 0 7.6rem 0;
+                        width: 100%;
 
                         .characteristics {
                             width: 46.5%;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
                             flex-direction: column;
+                            -webkit-box-align: start;
+                            -ms-flex-align: start;
                             align-items: flex-start;
+                            -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
                             justify-content: space-between;
                             padding: 3.6rem 2.6rem;
                             border-radius: 0.5rem;
@@ -102,7 +136,7 @@
                             // padding: 3.6rem 1rem 4.6rem 2.9rem;
                             padding: 2.6rem 1rem 2.2rem 2.9rem;
                             border-radius: 0.5rem;
-                            background-color: #F1F1F1aa;
+                            background-color: #f1f1f1aa;
                             .row {
                                 width: 100%;
                                 display: flex;
@@ -123,7 +157,8 @@
                                     height: 3.6rem;
                                     margin: 0 1.6rem 0 0;
 
-                                    .icon-img {}
+                                    .icon-img {
+                                    }
                                 }
                                 .text {
                                     text-transform: uppercase;
@@ -133,13 +168,44 @@
                         }
                     }
                     .bnt {
-                        .icon-phone {}
-                        .phome {}
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 1.2rem 2rem;
+                        background: #ff2e2e;
+                        width: 46.5%;
+                        border-radius: 0.6rem;
+                        .icon-phone {
+                        }
+                        .phome {
+                            width: auto;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #fff;
+                            font-size: 1.8rem;
+                            font-weight: 600;
+                            text-decoration: none;
+                            margin: 0 1.4rem 0 2rem;
+                            letter-spacing: -0.05rem;
+                        }
                     }
-                    
-                    span.bnt {}
+
+                    span.bnt {
+                        cursor: pointer;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 1.3814rem 1rem;
+                        background: #eda91a;
+                        width: 46.5%;
+                        border-radius: 0.6rem;
+                        font-size: 1.6rem;
+                    }
                 }
-                
+
                 .col-5 {
                     display: flex;
                     align-items: flex-end;
@@ -169,7 +235,7 @@
                             }
                         }
                     }
-                    
+
                     .technics-gallery-nav {
                         height: 12rem;
                         width: 50rem;

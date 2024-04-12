@@ -1,0 +1,31 @@
+.news {
+    padding: 2.1rem 0 10rem 0;
+    .container {
+        .section-title {
+        }
+
+        .grid {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            margin: 6.5rem 0 0 0;
+
+            .news-item {
+                width: 32%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 37rem;
+
+                .news-title {
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: #fff;
+                    margin: 2.8rem 0 0 2.8rem;
+                    text-shadow: 0 0 0.2rem black;
+                }
+            }
+        }
+    }
+}
