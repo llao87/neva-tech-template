@@ -1,21 +1,90 @@
 section.online-show
     .top
-        .container 
-            .section-title Он-лайн показ техники
-            .section-subtitle Оставьте свои контакты и наш менеджер с вами свяжется!
+        .container
+            .row 
+                .col
+                    .section-title Он-лайн показ техники
+                    .section-subtitle Оставьте свои контакты и наш менеджер с вами свяжется!
 
     .bottom 
         .container
-            .phone
-            .form 
-                input.input--text.input--name(name="name")
-                input.input--text.input--phone(name="phone")
-                input.input--submit(type="submit")
-                .agree Нажимая отправить вы принимаете 
-                    a(href="#") политику обработки персональных данных.
+            .row
+                .phone
+                .form 
+                    input.input--text.input--name(name="name" placeholder="Имя")
+                    input.input--text.input--phone(name="phone" placeholder="+7 (999) 999-99-99")
+                    input.input--submit(type="submit")
+                    .agree Нажимая отправить вы принимаете 
+                        a(href="#") политику обработки персональных данных.
 
 
 footer 
     .container 
-        a.logo(href="/")
-            img(src="/img/logo-top-white.svg", alt="Логотип")
+        .row.row__footer-cols
+            .col__company 
+                a.logo(href="/")
+                    img(src="/img/logo-top-white.svg", alt="Логотип")
+                .company__name ООО "Нева Мото"
+                .company__inn 7814810494 / 1227800086645
+
+                .socials 
+                    a.soc-icon.soc-icon--vk(href="#")
+                        img(src="/img/icon-vk-footer.svg")
+                    a.soc-icon.soc-icon--yt(href="#")
+                        img(src="/img/icon-youtube-footer.svg")
+                    a.soc-icon.soc-icon--wa(href="#")
+                        img(src="/img/icon-wa-footer.svg")
+                    a.soc-icon.soc-icon--inst(href="#")
+                        img(src="/img/icon-insta-footer.svg")
+
+            .col__links
+                .col__catalog
+                    .col__title Каталог техники
+                    ul.links__catalog
+                        li.item 
+                            a.link(href="#") Тракторы
+                        li.item 
+                            a.link(href="#") Экскаваторы
+                        li.item 
+                            a.link(href="#") Фронтальные погрузчики
+                        li.item 
+                            a.link(href="#") Навесное оборудование
+                
+                .col__brands
+                    .col__title Бренды
+                    ul.links__catalog
+                        li.item 
+                            a.link(href="#") LOVOL
+                        li.item 
+                            a.link(href="#") Basak
+                        li.item 
+                            a.link(href="#") YUCHAI
+                        li.item 
+                            a.link(href="#") LGCE (SDLG)
+                        li.item 
+                            a.link(href="#") BULL
+                        li.item 
+                            a.link(href="#") ACE
+
+                .col__payment
+                    .col__title Оплата
+                    ul.links__catalog
+                        li.item 
+                            a.link(href="#") Лизинг и кредит
+                        li.item 
+                            a.link(href="#") Trade-in
+
+
+                .col__contacts
+                    .col__title Контакты
+
+                    .address Санкт-Петербург, Лахтинский пр. 10
+                    .worktime Пн-Вс: 09:00 - 21:00
+
+                    a.phone(href="tel:+78122101845") +7 (812) 210-18-45
+                    a.email(href="mailto:info@neva-moto.ru") info@neva-moto.ru
+
+
+        .row.row__copyrights
+            div Обращаем ваше внимание на то, что информация (включая цены и другие предложения/акции) размещенная на сайте носит исключительно информационно-справочный характер и не являются публичной офертой, определяемой положениями ст. 435 ГК РФ, ст. 437 ГК РФ.
+            div Актуальную информацию о сроках и порядке проведения регламентных, технических и иных работ необходимо уточнять у официального дилера.

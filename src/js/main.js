@@ -19,6 +19,8 @@ jQuery(function () {
     const productGalleryNav = new Swiper(
         ".js__gallery_nav",
         {
+            centeredSlides: true,
+            centeredSlidesBounds: true,
             slidesPerView: 4,
             navigation: {
                 nextEl: ".swiper-button-next",

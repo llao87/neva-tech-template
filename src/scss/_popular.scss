@@ -68,7 +68,7 @@
                     justify-content: space-between;
                     flex-wrap: wrap;
                     .tech-name {
-                        font-size: 2.2rem;
+                        font-size: 3.2rem;
                         font-weight: 700;
                         text-transform: uppercase;
                         letter-spacing: 0.05rem;
@@ -106,6 +106,7 @@
                             padding: 3.6rem 2.6rem;
                             border-radius: 0.5rem;
                             background-color: #F1F1F1;
+                            box-shadow: 0 0 1.2rem 0.2rem #b3afaf;
                             .row {
                                 width: 100%;
                                 display: flex;
@@ -137,6 +138,7 @@
                             padding: 2.6rem 1rem 2.2rem 2.9rem;
                             border-radius: 0.5rem;
                             background-color: #f1f1f1aa;
+                            box-shadow: 0 0 1.2rem 0.2rem #b3afaf;
                             .row {
                                 width: 100%;
                                 display: flex;
@@ -158,6 +160,10 @@
                                     margin: 0 1.6rem 0 0;
 
                                     .icon-img {
+                                        width: auto;
+                                        height: auto;
+                                        max-width: 100%;
+                                        max-height: 100%;
                                     }
                                 }
                                 .text {
@@ -177,8 +183,10 @@
                         width: 46.5%;
                         border-radius: 0.6rem;
                         .icon-phone {
+                            width: 2em;
+                            height: 2em;
                         }
-                        .phome {
+                        .phone {
                             width: auto;
                             display: inline-flex;
                             align-items: center;
@@ -214,7 +222,7 @@
 
                     .technics-gallery {
                         position: relative;
-                        height: 34rem;
+                        height: 36.5rem;
                         width: 49rem;
                         margin: 0 0.5rem 0 0;
                         box-shadow: 0 0 0.4rem 0.05rem #b3afaf;
