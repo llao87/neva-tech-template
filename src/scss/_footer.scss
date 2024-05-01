@@ -33,7 +33,8 @@
 
     .bottom {
         padding: 12.7rem 0 13rem;
-        background: $yellow;
+        background-color: $yellow;
+        background-image: url(/img/bg-footer-top.png);
         .container {
             .row {
                 display: flex;
@@ -103,7 +104,8 @@
 }
 
 footer {
-    background-color: $text;
+    background-color: $black;
+    background-image: url(/img/bg-footer-bottom.png);
     padding: 6rem 0;
     .container {
         .row {

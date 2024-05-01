@@ -1,4 +1,4 @@
-header 
+header.pages 
     .container
         .row 
             .logo 
@@ -22,30 +22,41 @@ header
                 a.phone(href="tel:+78122101845") +7 (812) 210-18-45
                 .btn.btn--yellow Заказать звонок
 
-
-nav.navigation
-    .container
         .row
-            ul.nav
-                li.nav-item 
-                    a.nav-link(href="#") Каталог техники
-                li.nav-item 
-                    a.nav-link(href="#") Бренды
-                li.nav-item 
-                    a.nav-link(href="#") О компании
-                li.nav-item 
-                    a.nav-link(href="#") Лизинг и кредит
-                li.nav-item 
-                    a.nav-link(href="#") Блог
-                li.nav-item 
-                    a.nav-link(href="#") Контакты
-            
-            .socials 
-                a.soc-icon.soc-icon--vk(href="#")
-                    img(src="/img/icon-vk.svg")
-                a.soc-icon.soc-icon--yt(href="#")
-                    img(src="/img/icon-youtube.svg")
-                a.soc-icon.soc-icon--wa(href="#")
-                    img(src="/img/icon-whatsapp.svg")
-                a.soc-icon.soc-icon--inst(href="#")
-                    img(src="/img/icon-instagram.svg")
+            nav.navigation
+                ul.nav
+                    li.nav-item 
+                        a.nav-link(href="#") Каталог техники
+                    li.nav-item 
+                        a.nav-link(href="#") Бренды
+                    li.nav-item 
+                        a.nav-link(href="#") О компании
+                    li.nav-item 
+                        a.nav-link(href="#") Лизинг и кредит
+                    li.nav-item 
+                        a.nav-link(href="#") Блог
+                    li.nav-item 
+                        a.nav-link(href="#") Контакты
+
+                .socials 
+                    a.soc-icon.soc-icon--vk(href="#")
+                        img(src="/img/icon-vk-footer.svg")
+                    a.soc-icon.soc-icon--yt(href="#")
+                        img(src="/img/icon-youtube-footer.svg")
+                    a.soc-icon.soc-icon--wa(href="#")
+                        img(src="/img/icon-wa-footer.svg")
+                    a.soc-icon.soc-icon--inst(href="#")
+                        img(src="/img/icon-insta-footer.svg")
+
+
+section.breadcrumbs
+    .container
+        .row 
+            ul.breadcrumbs__list
+                li.breadcrumbs__item 
+                    a.breadcrumbs__link--home(href="#")
+                        img(src="/img/icon-home.svg" alt="На главную") 
+                li.breadcrumbs__item 
+                    a.breadcrumbs__link(href="#") Каталог
+                li.breadcrumbs__item 
+                    span.breadcrumbs__current Тракторная техника

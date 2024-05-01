@@ -1,7 +1,7 @@
 header {
-    background: $black;
     padding: 2rem 0 1.2rem 0;
-    background-image: url(/img/header-bg.jpg);
+    background-image: url(/img/bg-header.png);
+    background-color: $black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -175,6 +175,202 @@ nav.navigation {
                     &.soc-icon--wa {
                     }
                     &.soc-icon--inst {
+                    }
+                }
+            }
+        }
+    }
+}
+
+header.pages {
+    .container {
+        .row {
+            .logo {
+                .logo-wrap {
+                    .logo-link {
+                        .logo-img {
+                        }
+                    }
+                }
+                .slogan {
+                }
+            }
+
+            .addresses {
+                .address {
+                    .icon {
+                    }
+                    .text {
+                    }
+                }
+                .address--top {
+                }
+                .address--bottom {
+                }
+            }
+
+            .contacts {
+                .phone {
+                    &:active,
+                    &:hover,
+                    &:focus {
+                    }
+                }
+                .btn {
+                }
+            }
+        }
+        .row {
+            nav.navigation {
+                width: 100%;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 2.2rem 0 0.2rem 0;
+                ul.nav {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    flex: 1;
+
+                    .nav-item {
+                        .nav-link {
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 2.6rem;
+                            letter-spacing: -0.175rem;
+                            padding: 0 0 0.5rem 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            transition: all 0.3s linear;
+                            border-bottom: 0.4rem solid transparent;
+
+                            &:active,
+                            &:focus,
+                            &:hover {
+                                border-bottom: 0.4rem solid $yellow;
+                            }
+                        }
+
+                        &:first-child {
+                            .nav-link::before {
+                                display: block;
+                                width: 2.4rem;
+                                height: 2.4rem;
+                                content: "";
+                                position: relative;
+                                left: 0;
+                                margin: 0 2rem 0 0;
+                                background-image: url(/img/icon-burger-light.svg);
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: contain;
+                            }
+                        }
+                    }
+                }
+
+                .socials {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    flex: none;
+                    width: 14rem;
+                    margin: 0 0 0 10rem;
+
+                    .soc-icon {
+                        margin: 0 0 0 1.4rem;
+
+                        img {
+                            width: auto;
+                            height: auto;
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                        &:first-child {
+                            margin: 0;
+                        }
+                        &.soc-icon--vk {
+                        }
+                        &.soc-icon--yt {
+                        }
+                        &.soc-icon--wa {
+                        }
+                        &.soc-icon--inst {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.breadcrumbs {
+    padding: 1.25rem 0;
+    border-bottom: 0.2rem dotted #d2d2d2;
+    .container {
+        .row {
+            .breadcrumbs__list {
+                display: flex;
+                align-items: stretch;
+                justify-content: flex-start;
+                list-style: none;
+                .breadcrumbs__item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin: 0.2rem 2.7rem 0 0;
+                    &::after {
+                        position: relative;
+                        display: inline-flex;
+                        content: "/";
+                        font-size: 2rem;
+                        color: #d2d2d2;
+                        top: 0;
+                        bottom: 0;
+                        left: 1.2rem;
+                        height: 100%;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    &:last-child {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                    .breadcrumbs__link,
+                    .breadcrumbs__current {
+                        font-size: 1.6rem;
+                        text-decoration: none;
+                        border-bottom: 0.1rem dashed transparent;
+                        color: $text;
+                        height: 100%;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: all 0.3s linear;
+                        img {
+                            width: 2.6rem;
+                            height: 2.2rem;
+                        }
+                    }
+                    .breadcrumbs__link {
+                        &:hover {
+                            border-color: $text;
+                        }
+                    }
+
+                    .breadcrumbs__link--home,
+                    .breadcrumbs__current {
+                        // border-bottom: 0.2rem dashed transparent;
+                    }
+                    .breadcrumbs__current {
+                        cursor: auto;
                     }
                 }
             }

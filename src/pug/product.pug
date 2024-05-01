@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru")
+	head
+		meta(charset="utf-8")
+		meta(
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+		)
+		title= "Neva-Tehnika.ru | Страница продукта - Продажа, аренда, лизинг спецтехники Lovol "
+		link(
+			rel="stylesheet",
+			href="/css/style.min.css"
+		)
+		script(src='/js/libs.min.js')
+		script(src='/js/main.js')
+		//- script(src='//panel.quizgo.ru/common?q=62822')
+
+	body.catalog
+		include ../parts/header/header.pug
+		include ../parts/catalog-list.pug
+		include ../parts/footer.pug
